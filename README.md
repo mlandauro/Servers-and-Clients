@@ -14,6 +14,7 @@ This project was one of my final projects in my UNIX class
     (SUCCESS or FAIL) allowing a database of students to be created. The handler terminates
     only when the client closes the connection. The server never terminates, it waits for the
     next request.
+    
   Database Client: The user interacts with the client database. It starts by setting up a
     connection with the server and the prompts the user to choose an operation (PUT, GET,
     DELETE), it sends the corresponding message to the server and then waits on a FAIL or 
